@@ -1,0 +1,6 @@
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @29-06-2022 00:37:49.0371 AM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @29-06-2022 00:37:49.0371 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @29-06-2022 00:37:49.0371 AM
+[ReportManager] Driver Factory Action [createNewLocalDriverInstance] failed. With the following test data [Failed to create new Browser Session]. @29-06-2022 00:37:49.0487 AM
+[ReportManager] An Exception Occured with this Message: Could not start a new session. Handshake response does not match any supported protocol. @29-06-2022 00:37:49.0487 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException] @29-06-2022 00:37:49.0487 A

@@ -1,0 +1,20 @@
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @29-06-2022 00:37:42.0000 AM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @29-06-2022 00:37:42.0000 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @29-06-2022 00:37:42.0000 AM
+[ReportManager] Successfully Opened Google Chrome. @29-06-2022 00:37:42.0056 AM
+[ReportManager] Initial window size: (1920, 859) @29-06-2022 00:37:42.0059 AM
+[ReportManager] Window size after Toolkit: (1512, 859) @29-06-2022 00:37:42.0274 AM
+[ReportManager] Window size after WebDriver.Manage.Window: (1920, 859) @29-06-2022 00:37:42.0492 AM
+[ReportManager] Initial Windows Size: 1920x859 @29-06-2022 00:37:42.0495 AM
+[ReportManager] Current Windows Size after fullScreen: 1512x945 @29-06-2022 00:37:42.0532 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220629-003701", Target File: "/1656455862810_beforeMethod.gif"]. @29-06-2022 00:37:42.0881 AM
+[ReportManager] Browser Action [FullScreenWindow] successfully performed. @29-06-2022 00:37:43.0212 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - FullScreenWindow - Actual Value] @29-06-2022 00:37:43.0217 AM
+[ReportManager] Window size after fullScreenWindow: (1512, 945) @29-06-2022 00:37:43.0223 AM
+[ReportManager] skipping window maximization due to unknown error, marking step as passed. @29-06-2022 00:37:43.0223 AM
+[ReportManager] Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1512, 945)]. @29-06-2022 00:37:43.0638 AM
+[ReportManager] Initial Windows Size: 1512x945 @29-06-2022 00:37:43.0641 AM
+[ReportManager] Current Windows Size after fullScreen: 1512x945 @29-06-2022 00:37:43.0650 AM
+[ReportManager] Browser Action [FullScreenWindow] successfully performed. @29-06-2022 00:37:44.0042 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - FullScreenWindow - Actual Value] @29-06-2022 00:37:44.0044 AM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @29-06-2022 00:37:44.0059 A

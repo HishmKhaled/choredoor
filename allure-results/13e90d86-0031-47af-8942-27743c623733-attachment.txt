@@ -1,0 +1,336 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v6.1.20220113]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/googleSearch.json"]. @29-06-2022 00:37:01.0278 AM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/googleSearch.json]. @29-06-2022 00:37:01.0278 AM
+[ReportManager] Successfully created attachment [Test Data - JSON] @29-06-2022 00:37:01.0279 A
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @29-06-2022 00:37:01.0293 AM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @29-06-2022 00:37:01.0300 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @29-06-2022 00:37:01.0301 AM
+[ReportManager] Successfully Opened Google Chrome. @29-06-2022 00:37:06.0749 AM
+[ReportManager] Initial window size: (1200, 815) @29-06-2022 00:37:06.0756 AM
+[ReportManager] Window size after Toolkit: (1512, 859) @29-06-2022 00:37:07.0189 AM
+[ReportManager] Window size after WebDriver.Manage.Window: (1920, 859) @29-06-2022 00:37:07.0406 AM
+[ReportManager] Initial Windows Size: 1920x859 @29-06-2022 00:37:07.0415 AM
+[ReportManager] Current Windows Size after fullScreen: 1512x945 @29-06-2022 00:37:07.0477 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220629-003701", Target File: "/1656455827721_beforeMethod.gif"]. @29-06-2022 00:37:07.0849 AM
+[ReportManager] Browser Action [FullScreenWindow] successfully performed. With the following test data [<html><head></head><body></body></html>]. @29-06-2022 00:37:08.0069 AM
+[ReportManager] Window size after fullScreenWindow: (1512, 945) @29-06-2022 00:37:08.0071 AM
+[ReportManager] skipping window maximization due to unknown error, marking step as passed. @29-06-2022 00:37:08.0071 AM
+[ReportManager] Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1512, 945)]. @29-06-2022 00:37:08.0545 AM
+[ReportManager] Initial Windows Size: 1512x945 @29-06-2022 00:37:08.0652 AM
+[ReportManager] Current Windows Size after fullScreen: 1512x945 @29-06-2022 00:37:08.0656 AM
+[ReportManager] Browser Action [FullScreenWindow] successfully performed. With the following test data [<html><head></head><body></body></html>]. @29-06-2022 00:37:09.0067 AM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @29-06-2022 00:37:09.0115 A
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:09.0125 AM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[testPackage.NewTest.checkThatGoogleLogoIsDisplayedWithShaft]
+Test Description:	[check that Google logo is dsiplayed using Shaft]
+################################################################################################################################################
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:09.0125 AM
+[ReportManager] Target URL: [https://www.google.com/] @29-06-2022 00:37:09.0133 AM
+[ReportManager] Initial URL: [data:,] @29-06-2022 00:37:09.0151 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220629-003701", Target File: "/1656455830517_checkThatGoogleLogoIsDisplayedWithShaft.gif"]. @29-06-2022 00:37:10.0621 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/]. @29-06-2022 00:37:10.0740 AM
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$718/0x000000080120aac8@22825762 (tried for 25 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:89)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1494)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:561)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:269)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:149)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+testPackage.NewTest.checkThatGoogleLogoIsDisplayedWithShaft(NewTest.java:37)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:808)
+org.testng.TestRunner.run(TestRunner.java:603)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+org.testng.SuiteRunner.run(SuiteRunner.java:326)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+org.testng.TestNG.runSuites(TestNG.java:1092)
+org.testng.TestNG.run(TestNG.java:1060)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='عيد الأم 2022']"}
+  (Session info: chrome=103.0.5060.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'abdos-MacBook-Pro.local', ip: 'fe80:0:0:0:1c08:cc97:4794:3a61%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6736de5fb07d794f9395375d47911032, findElement {using=xpath, value=//img[@alt='عيد الأم 2022']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/zz/7q6t_c3d59n...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6736de5fb07d794f9395375d47911032
+jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:92)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:89)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1494)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:561)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:269)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:149)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+testPackage.NewTest.checkThatGoogleLogoIsDisplayedWithShaft(NewTest.java:37)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:808)
+org.testng.TestRunner.run(TestRunner.java:603)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+org.testng.SuiteRunner.run(SuiteRunner.java:326)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+org.testng.TestNG.runSuites(TestNG.java:1092)
+org.testng.TestNG.run(TestNG.java:1060)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) @29-06-2022 00:37:36.0041 AM
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:36.0043 AM
+[ReportManager] org.openqa.selenium.TimeoutException:
+Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$718/0x000000080120aac8@602d5417 (tried for 5 second(s) with 1000 milliseconds interval)
+org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:89)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1494)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:561)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:269)
+com.shaft.gui.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:386)
+com.shaft.gui.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:142)
+com.shaft.validation.ValidationsHelper.reportValidationState(ValidationsHelper.java:823)
+com.shaft.validation.ValidationsHelper.fail(ValidationsHelper.java:588)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:155)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+testPackage.NewTest.checkThatGoogleLogoIsDisplayedWithShaft(NewTest.java:37)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:808)
+org.testng.TestRunner.run(TestRunner.java:603)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+org.testng.SuiteRunner.run(SuiteRunner.java:326)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+org.testng.TestNG.runSuites(TestNG.java:1092)
+org.testng.TestNG.run(TestNG.java:1060)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+Caused by: org.openqa.selenium.NoSuchElementException:
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='عيد الأم 2022']"}
+  (Session info: chrome=103.0.5060.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'abdos-MacBook-Pro.local', ip: 'fe80:0:0:0:1c08:cc97:4794:3a61%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6736de5fb07d794f9395375d47911032, findElement {using=xpath, value=//img[@alt='عيد الأم 2022']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/zz/7q6t_c3d59n...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6736de5fb07d794f9395375d47911032
+jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+com.shaft.gui.element.ElementActionsHelper.lambda$waitForElementPresence$0(ElementActionsHelper.java:92)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:89)
+com.shaft.gui.element.ElementActionsHelper.waitForElementPresence(ElementActionsHelper.java:37)
+com.shaft.gui.element.WebDriverElementActions.getMatchingElementsCount(WebDriverElementActions.java:1494)
+com.shaft.gui.element.WebDriverElementActions.getElementsCount(WebDriverElementActions.java:561)
+com.shaft.gui.element.ElementActions.getElementsCount(ElementActions.java:269)
+com.shaft.gui.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:386)
+com.shaft.gui.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:142)
+com.shaft.validation.ValidationsHelper.reportValidationState(ValidationsHelper.java:823)
+com.shaft.validation.ValidationsHelper.fail(ValidationsHelper.java:588)
+com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:155)
+com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)
+testPackage.NewTest.checkThatGoogleLogoIsDisplayedWithShaft(NewTest.java:37)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:808)
+org.testng.TestRunner.run(TestRunner.java:603)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+org.testng.SuiteRunner.run(SuiteRunner.java:326)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+org.testng.TestNG.runSuites(TestNG.java:1092)
+org.testng.TestNG.run(TestNG.java:1060)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) @29-06-2022 00:37:41.0101 AM
+[ReportManager] Assertion Failed: Assert that google logo is displayed @29-06-2022 00:37:41.0975 AM
+[ReportManager] Successfully created attachment [Screenshot - 1656455861683_checkThatGoogleLogoIsDisplayedWithShaft_ValidateElementExists_failed] @29-06-2022 00:37:41.0979 AM
+[ReportManager] Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.xpath: //img[@alt='عيد الأم 2022']'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @29-06-2022 00:37:41.0979 AM
+[ReportManager] Successfully created attachment [Animated Gif - checkThatGoogleLogoIsDisplayedWithShaft] @29-06-2022 00:37:41.0983 A
+
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @29-06-2022 00:37:42.0000 AM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @29-06-2022 00:37:42.0000 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @29-06-2022 00:37:42.0000 AM
+[ReportManager] Successfully Opened Google Chrome. @29-06-2022 00:37:42.0056 AM
+[ReportManager] Initial window size: (1920, 859) @29-06-2022 00:37:42.0059 AM
+[ReportManager] Window size after Toolkit: (1512, 859) @29-06-2022 00:37:42.0274 AM
+[ReportManager] Window size after WebDriver.Manage.Window: (1920, 859) @29-06-2022 00:37:42.0492 AM
+[ReportManager] Initial Windows Size: 1920x859 @29-06-2022 00:37:42.0495 AM
+[ReportManager] Current Windows Size after fullScreen: 1512x945 @29-06-2022 00:37:42.0532 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220629-003701", Target File: "/1656455862810_beforeMethod.gif"]. @29-06-2022 00:37:42.0881 AM
+[ReportManager] Browser Action [FullScreenWindow] successfully performed. @29-06-2022 00:37:43.0212 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - FullScreenWindow - Actual Value] @29-06-2022 00:37:43.0217 AM
+[ReportManager] Window size after fullScreenWindow: (1512, 945) @29-06-2022 00:37:43.0223 AM
+[ReportManager] skipping window maximization due to unknown error, marking step as passed. @29-06-2022 00:37:43.0223 AM
+[ReportManager] Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1512, 945)]. @29-06-2022 00:37:43.0638 AM
+[ReportManager] Initial Windows Size: 1512x945 @29-06-2022 00:37:43.0641 AM
+[ReportManager] Current Windows Size after fullScreen: 1512x945 @29-06-2022 00:37:43.0650 AM
+[ReportManager] Browser Action [FullScreenWindow] successfully performed. @29-06-2022 00:37:44.0042 AM
+[ReportManager] Successfully created attachment [Browser Action Test Data - FullScreenWindow - Actual Value] @29-06-2022 00:37:44.0044 AM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @29-06-2022 00:37:44.0059 A
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:44.0220 AM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[testPackage.NewTest.checkThatResultStatsIsNotEmpty]
+Test Description:	[search for SHAFT ENGINE and check that Result Stats is not empty]
+################################################################################################################################################
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:44.0220 AM
+[ReportManager] Target URL: [https://www.google.com/] @29-06-2022 00:37:44.0221 AM
+[ReportManager] Initial URL: [https://www.google.com] @29-06-2022 00:37:44.0244 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220629-003701", Target File: "/1656455864994_checkThatResultStatsIsNotEmpty.gif"]. @29-06-2022 00:37:45.0033 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/]. @29-06-2022 00:37:45.0156 AM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/googleSearch.json"]. @29-06-2022 00:37:45.0181 AM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT ENGINE]. @29-06-2022 00:37:46.0384 AM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @29-06-2022 00:37:48.0217 AM
+[ReportManager] Setting discrete logging to: "true" @29-06-2022 00:37:48.0220 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [حوالى 69,200,000 نتيجة (0.47 ثانية) ]. @29-06-2022 00:37:48.0655 AM
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:48.0655 AM
+[ReportManager] Assertion Passed: Assert that result stat is not empty @29-06-2022 00:37:49.0359 AM
+[ReportManager] Successfully created attachment [Screenshot - 1656455869125_checkThatResultStatsIsNotEmpty_ValidateElementAttribute_passed] @29-06-2022 00:37:49.0362 AM
+[ReportManager] Assertion [ValidateElementAttribute] PASSED. Expected [Value Should not be '' for the 'text' attribute, element locator 'By.id: result-stats'] and Actual [حوالى 69,200,000 نتيجة (0.47 ثانية) ]. Comparison Type [EQUALS]. Validation Type [NEGATIVE]. @29-06-2022 00:37:49.0362 AM
+[ReportManager] Successfully created attachment [Animated Gif - checkThatResultStatsIsNotEmpty] @29-06-2022 00:37:49.0363 A
+
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @29-06-2022 00:37:49.0371 AM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @29-06-2022 00:37:49.0371 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @29-06-2022 00:37:49.0371 AM
+[ReportManager] Driver Factory Action [createNewLocalDriverInstance] failed. With the following test data [Failed to create new Browser Session]. @29-06-2022 00:37:49.0487 AM
+[ReportManager] An Exception Occured with this Message: Could not start a new session. Handshake response does not match any supported protocol. @29-06-2022 00:37:49.0487 AM
+[ReportManager] Successfully created attachment [Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException] @29-06-2022 00:37:49.0487 A
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:49.0496 AM
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[testPackage.NewTest.navigateToFirstUrl]
+################################################################################################################################################
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:49.0496 A
+
+
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:49.0505 AM
+
+################################################################################################################################################
+Starting Execution:	[4 out of 5] test cases in the current suite
+Test Method:		[testPackage.NewTest.verifyFormaValidation]
+Test Description:	[Veify that User can't submit the form without All mandatory fields]
+################################################################################################################################################
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:49.0505 A
+
+
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:49.0513 AM
+
+################################################################################################################################################
+Starting Execution:	[5 out of 5] test cases in the current suite
+Test Method:		[testPackage.NewTest.verifyLoginToCompanyAdminWithValidCredentials]
+################################################################################################################################################
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:49.0513 A
+
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @29-06-2022 00:37:49.0882 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v6.1.20220113]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

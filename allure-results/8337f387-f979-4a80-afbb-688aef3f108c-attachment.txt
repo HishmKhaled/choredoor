@@ -1,0 +1,22 @@
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:44.0220 AM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[testPackage.NewTest.checkThatResultStatsIsNotEmpty]
+Test Description:	[search for SHAFT ENGINE and check that Result Stats is not empty]
+################################################################################################################################################
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:44.0220 AM
+[ReportManager] Target URL: [https://www.google.com/] @29-06-2022 00:37:44.0221 AM
+[ReportManager] Initial URL: [https://www.google.com] @29-06-2022 00:37:44.0244 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20220629-003701", Target File: "/1656455864994_checkThatResultStatsIsNotEmpty.gif"]. @29-06-2022 00:37:45.0033 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/]. @29-06-2022 00:37:45.0156 AM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/googleSearch.json"]. @29-06-2022 00:37:45.0181 AM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [SHAFT ENGINE]. @29-06-2022 00:37:46.0384 AM
+[ReportManager] Element Action [KeyPress] successfully performed. With the following test data [ENTER]. @29-06-2022 00:37:48.0217 AM
+[ReportManager] Setting discrete logging to: "true" @29-06-2022 00:37:48.0220 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [حوالى 69,200,000 نتيجة (0.47 ثانية) ]. @29-06-2022 00:37:48.0655 AM
+[ReportManager] Setting discrete logging to: "false" @29-06-2022 00:37:48.0655 AM
+[ReportManager] Assertion Passed: Assert that result stat is not empty @29-06-2022 00:37:49.0359 AM
+[ReportManager] Successfully created attachment [Screenshot - 1656455869125_checkThatResultStatsIsNotEmpty_ValidateElementAttribute_passed] @29-06-2022 00:37:49.0362 AM
+[ReportManager] Assertion [ValidateElementAttribute] PASSED. Expected [Value Should not be '' for the 'text' attribute, element locator 'By.id: result-stats'] and Actual [حوالى 69,200,000 نتيجة (0.47 ثانية) ]. Comparison Type [EQUALS]. Validation Type [NEGATIVE]. @29-06-2022 00:37:49.0362 AM
+[ReportManager] Successfully created attachment [Animated Gif - checkThatResultStatsIsNotEmpty] @29-06-2022 00:37:49.0363 A

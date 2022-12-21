@@ -1,0 +1,57 @@
+package testPackage;
+
+import org.testng.annotations.Test;
+
+import com.shaft.driver.DriverFactory;
+import com.shaft.gui.browser.BrowserActions;
+import com.shaft.gui.element.ElementActions;
+import com.shaft.tools.io.ExcelFileManager;
+import com.shaft.tools.io.JSONFileManager;
+import com.shaft.validation.Validations;
+
+import org.testng.annotations.BeforeClass;
+import org.glassfish.hk2.api.ValidationService;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+
+public class TestClass {
+	private WebDriver driver;
+
+	@Test
+	public void assertResultStatsIsNotEmpty() {
+//		ExcelFileManager testData = new ExcelFileManager("src/test/resources/testDataFiles/credentials.xlsx");
+//		var userName = testData.getCellData("username");
+//		
+//		JSONFileManager testDataJson = new JSONFileManager("src/test/resources/testDataFiles/credentials.json");
+//		var password = testDataJson.getTestData("password");
+		
+		BrowserActions.navigateToURL(driver, "https://www.google.com/");
+		By searchBox = By.name("q"); //*[@name='q']
+		ElementActions.type(driver, searchBox, "Selenium WebDriver");
+		ElementActions.keyPress(driver, searchBox, Keys.ENTER);
+		// redirection to results page
+		// fails on firefox / needs explicit wait
+		By resultStats = By.id("result-stats"); //*[@id='result-stats']
+		Validations.assertThat().element(driver, resultStats).text().doesNotEqual("").perform();
+//		Validations.assertThat().element(driver, resultStats).text().doesNotEqual("").withCustomReportMessage("Check that result stats is not empty").perform();
+	}
+	@Test
+	public void assertThatGoogleLogoDisplayed() {
+		BrowserActions.navigateToURL(driver, "https://www.google.com/");
+		By google_logo = By.xpath("//img[@alt='Google']");
+		Validations.assertThat().element(driver, google_logo).exists().perform();
+	}
+
+	@BeforeClass
+	public void beforeClass() {
+		driver = DriverFactory.getDriver();
+	}
+
+	@AfterClass
+	public void afterClass() {
+		DriverFactory.closeAllDrivers();
+	}
+
+}
